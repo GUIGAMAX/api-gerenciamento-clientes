@@ -1,0 +1,25 @@
+{
+  "name": "exatamente",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido em Node.js para simular um sistema real de gerenciamento\r de clientes, utilizando boas práticas de organização e API REST.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SEUUSUARIO/api-gerenciamento-clientes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/SEUUSUARIO/api-gerenciamento-clientes/issues"
+  },
+  "homepage": "https://github.com/SEUUSUARIO/api-gerenciamento-clientes#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1"
+  }
+}

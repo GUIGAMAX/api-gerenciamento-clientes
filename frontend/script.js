@@ -16,26 +16,14 @@ async function carregarClientes() {
   });
 }
 
-form.addEventListener('submit', async (e) => {
-  e.preventDefault();
+form.addEventListener('submit', async (event) => {
+  event.preventDefault();
 
   const nome = document.getElementById('nome').value;
   const email = document.getElementById('email').value;
 
   await fetch(API_URL, {
-  method: 'POST',
-  headers: {
-    'Content-Type': 'application/json'
-  },
-  body: JSON.stringify({ nome, email })
-});
-
-// 👇 ISSO FICA FORA DO FETCH
-document.getElementById("formCliente").reset();
-
-// 👇 ATUALIZA A LISTA
-carregarClientes();
-
+    method: 'POST',
     headers: {
       'Content-Type': 'application/json'
     },
